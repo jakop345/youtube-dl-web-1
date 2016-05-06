@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Youtube Downloader{% endblock %}
+{% block page_content %}
+<ul>
+    {% for dir in show_dir %}
+        <li>{{ dir }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
